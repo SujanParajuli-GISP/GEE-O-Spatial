@@ -1,0 +1,75 @@
+# ============================================================
+# GEE-O-SPATIAL SOLUTIONS — SITE CONFIGURATION
+# This file is in the YAML format and is very sensitive to
+# spaces. Ensure to match the indentation level and spacing
+# of new items with existing ones.
+# ============================================================
+
+site_name: "GEE-O-Spatial Solutions Company Inc."
+site_description: "Geospatial consulting, professional training, and SaaS solutions — GIS, remote sensing, LiDAR, and SAR."
+site_author: "GEE-O-Spatial Solutions Company Inc."
+# After your site is live, uncomment and set this to your actual GitHub Pages URL:
+#site_url: "https://<your-org>.github.io/GEE-O-Spatial/"
+
+theme:
+  name: material
+  icon:
+    logo: material/satellite-variant
+  palette:
+    - scheme: default            # Light mode
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate              # Dark mode
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-1
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.expand
+    - content.code.copy
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra_css:
+  - assets/css/extra.css
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: "Copyright &copy; GEE-O-Spatial Solutions Company Inc. 2026. All rights reserved."
+
+extra:
+  social:
+    - icon: material/email
+      link: mailto:sujan.parajuli2070@gmail.com
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sujanparajuli9/
+
+plugins:
+  - search
+  - meta
+
+nav:
+  - Home: index.md
+  - Services:
+    - "Overview": services/index.md
+    - "Consulting": services/consulting.md
+    - "Training Programs": services/training.md
+    - "SaaS Solutions": services/saas.md
+  - Get Started: get-started.md
+  - Contact: contact.md

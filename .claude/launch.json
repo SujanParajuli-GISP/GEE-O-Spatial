@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "gee-o-spatial-site",
+      "runtimeExecutable": "/Users/sujanparajuli/PycharmProjects/GEE-O-Spatial/.venv/bin/mkdocs",
+      "runtimeArgs": ["serve", "-a", "127.0.0.1:8034"],
+      "port": 8034
+    }
+  ]
+}

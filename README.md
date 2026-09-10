@@ -16,7 +16,7 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-Then open [http://127.0.0.1:8000](https://sujanparajuli-gisp.github.io/GEE-O-Spatial/) in your browser.
+Then open [GEE-O_Spatial Website](https://sujanparajuli-gisp.github.io/GEE-O-Spatial/) in your browser.
 
 ## Deployment
 

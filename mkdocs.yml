@@ -9,7 +9,7 @@ site_name: "GEE-O-Spatial Solutions Company Inc."
 site_description: "Geospatial consulting, professional training, and SaaS solutions — GIS, remote sensing, LiDAR, and SAR."
 site_author: "GEE-O-Spatial Solutions Company Inc."
 # After your site is live, uncomment and set this to your actual GitHub Pages URL:
-#site_url: "https://<your-org>.github.io/GEE-O-Spatial/"
+site_url: "https://sujanparajuli-gisp.github.io/GEE-O-Spatial/"
 
 theme:
   name: material

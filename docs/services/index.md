@@ -22,6 +22,7 @@ offerings. Explore each area below.
     sensing / image analysis, and geospatial data science & machine learning.
 
     [View training programs :material-arrow-right:](training.md)
+    [Free training resources :material-arrow-right:](training-resources.md)
 
 -   :material-cloud-outline:{ .lg .middle } **SaaS Solutions**
 

@@ -45,6 +45,15 @@ advanced spatial analysis techniques, using industry-standard tools and technolo
 
 ---
 
+## Free Self-Study Resources
+
+Prefer to start on your own? Our [Training Resources](training-resources.md) collect notebooks,
+workshops, and example projects straight from our GitHub repositories.
+
+[Browse Training Resources :material-arrow-right:](training-resources.md){ .md-button }
+
+---
+
 ## Enroll Your Team
 
 Explore our training programs and enroll your team members in courses that align with

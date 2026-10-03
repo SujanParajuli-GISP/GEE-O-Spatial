@@ -33,6 +33,9 @@ theme:
     - navigation.top
     - navigation.expand
     - content.code.copy
+    - navigation.instant
+    - navigation.footer
+    - content.tabs.link
   font:
     text: Roboto
     code: Roboto Mono
@@ -55,6 +58,8 @@ copyright: "Copyright &copy; GEE-O-Spatial Solutions Company Inc. 2026. All righ
 
 extra:
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SujanParajuli-GISP
     - icon: material/email
       link: mailto:sujan.parajuli2070@gmail.com
     - icon: fontawesome/brands/linkedin
@@ -63,13 +68,22 @@ extra:
 plugins:
   - search
   - meta
+  - blog:
+      blog_dir: blog
+      post_date_format: long
+      post_excerpt: required
+      draft_if_future_date: true
+  - tags
 
 nav:
   - Home: index.md
+  - About: about.md
   - Services:
     - "Overview": services/index.md
     - "Consulting": services/consulting.md
     - "Training Programs": services/training.md
+    - "Training Resources": services/training-resources.md
     - "SaaS Solutions": services/saas.md
+  - Blog: blog/index.md
   - Get Started: get-started.md
   - Contact: contact.md
